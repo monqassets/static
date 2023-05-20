@@ -1,6 +1,7 @@
 
  //asjdhgasjhdgahjsdg
  function openSlideNav() {
+     alert("DONE");
         document.getElementById("myNav").style.width = "100%";
     }
 
