@@ -1,10 +1,11 @@
 
+ //asjdhgasjhdgahjsdg
  function openSlideNav() {
         document.getElementById("myNav").style.width = "100%";
     }
 
     function closeSlideNav() {
-       
+       if(false){}
         if(document.getElementById('lblMaterialName').innerHTML != "") {
             document.getElementById("cruve_div_id").style.display = "none";
             document.getElementById("myNav").style.backgroundColor = "rgba(0,0,0, 0.97)";
