@@ -34,126 +34,126 @@
 //        if(p1>0)
 //        {
 //        data.addRows([
-//           [month(m1) ,  p1]     
+//           [month(m1) ,  p1]
 //         ]);
 //         }
 
 //         if(p2>0)
 //         {
 //           data.addRows([
-//           [month(m2),  p2]       
+//           [month(m2),  p2]
 //         ]);
 //         }
 
 //         if(p3>0)
 //         {
 //           data.addRows([
-//           [month(m3),  p3]       
+//           [month(m3),  p3]
 //         ]);
 //         }
 
 //          if(p4>0)
 //         {
 //           data.addRows([
-//           [month(m4),  p4]       
+//           [month(m4),  p4]
 //         ]);
 //         }
 
 //          if(p5>0)
 //         {
 //           data.addRows([
-//           [month(m5),  p5]       
+//           [month(m5),  p5]
 //         ]);
 //         }
 
 //          if(p6>0)
 //         {
 //           data.addRows([
-//           [month(m6),  p6]       
+//           [month(m6),  p6]
 //         ]);
 //         }
 
 //          if(p7>0)
 //         {
 //           data.addRows([
-//           [month(m7),  p7]       
+//           [month(m7),  p7]
 //         ]);
 //         }
 
 //          if(p8>0)
 //         {
 //           data.addRows([
-//           [month(m8),  p8]       
+//           [month(m8),  p8]
 //         ]);
 //         }
 
 //          if(p9>0)
 //         {
 //           data.addRows([
-//           [month(m9),  p9]       
+//           [month(m9),  p9]
 //         ]);
 //         }
 
 //          if(p10>0)
 //         {
 //           data.addRows([
-//           [month(m10),  p10]       
+//           [month(m10),  p10]
 //         ]);
 //         }
 
 //          if(p11>0)
 //         {
 //           data.addRows([
-//           [month(m11),  p11]       
+//           [month(m11),  p11]
 //         ]);
 //         }
 
 //          if(p12>0)
 //         {
 //           data.addRows([
-//           [month(m12),  p12]       
+//           [month(m12),  p12]
 //         ]);
 //         }
 
 //          if(p13>0)
 //         {
 //           data.addRows([
-//           [month(m13),  p13]       
+//           [month(m13),  p13]
 //         ]);
 //         }
 
 //          if(p14>0)
 //         {
 //           data.addRows([
-//           [month(m14),  p14]       
+//           [month(m14),  p14]
 //         ]);
 //         }
 
 //          if(p15>0)
 //         {
 //           data.addRows([
-//           [month(m15),  p15]       
+//           [month(m15),  p15]
 //         ]);
 //         }
 
 //          if(p16>0)
 //         {
 //           data.addRows([
-//           [month(m16),  p16]       
+//           [month(m16),  p16]
 //         ]);
 //         }
 
 //          if(p17>0)
 //         {
 //           data.addRows([
-//           [month(m17),  p17]       
+//           [month(m17),  p17]
 //         ]);
 //         }
 
 //          if(p18>0)
 //         {
 //           data.addRows([
-//           [month(m18),  p18]       
+//           [month(m18),  p18]
 //         ]);
 //         }
 
@@ -184,7 +184,7 @@
 //           }
 
 //         };
-   
+
 //        document.getElementById("cruve_div_id").style.display = "block";
 //        document.getElementById("div_table_id").style.display = "none";
 //     //document.getElementById("closeNav").style.display = "none";
@@ -192,8 +192,8 @@
 //       //document.getElementById("years").style.display = "block";
 //       document.getElementById("myNav").style.backgroundColor = "white";
 //         var chart = new google.charts.Line(document.getElementById('curve_chart'));
-       
-//         chart.draw(data, google.charts.Line.convertOptions(options));  
+
+//         chart.draw(data, google.charts.Line.convertOptions(options));
 
 //      }
 
@@ -249,7 +249,7 @@ function drawChart(m1, p1 = 0, m2, p2 = 0, m3, p3 = 0, m4, p4 = 0, m5, p5 = 0, m
     var ctx = document.getElementById("curve_chart");
     ctx.innerHTML != ""
     const actions = [
-     
+
     ];
     var myLineChart = new Chart(ctx, {
         type: 'line',
@@ -301,8 +301,8 @@ function drawChart(m1, p1 = 0, m2, p2 = 0, m3, p3 = 0, m4, p4 = 0, m5, p5 = 0, m
     });
 
 
-  
-    
+
+
 
 }
 
@@ -317,7 +317,7 @@ function drawChart(m1, p1 = 0, m2, p2 = 0, m3, p3 = 0, m4, p4 = 0, m5, p5 = 0, m
 
 
 
-   
+
    function month(m) {
 
         var mm = "";
@@ -376,10 +376,10 @@ function drawChart(m1, p1 = 0, m2, p2 = 0, m3, p3 = 0, m4, p4 = 0, m5, p5 = 0, m
    function closeNav() {
      document.getElementById("mySidenav").style.display = "none";
      document.getElementById("main").style.marginLeft= "0";
-      
+
      document.getElementById("btnClose").style.display = "inline-block";
    }
-   
+
    function closeCurve() {
      document.getElementById("div_table_id").style.display = "block";
     document.getElementById("closeNav").style.display = "block";
@@ -389,6 +389,5 @@ function drawChart(m1, p1 = 0, m2, p2 = 0, m3, p3 = 0, m4, p4 = 0, m5, p5 = 0, m
        document.getElementById("mySidenav").style.backgroundColor = "#171717";
 
 
-     
+
    }
-  
