@@ -1,4 +1,7 @@
 
+//MODIFED FILE TO REMOVE ALERT FROM CDN
+//ALERT("DONE");
+//CLEARING CACHE
  function openSlideNav() {
         document.getElementById("myNav").style.width = "100%";
     }
